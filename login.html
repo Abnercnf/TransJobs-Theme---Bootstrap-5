@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Abner Narciso - https://github.com/Abnercnf">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiled/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiled/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <title>TRANSJobs :: Login</title>
+</head>
+
+<body>
+    <head>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/media/hand.png" width="48px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Para Candidatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Para Empresas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cursos</a>
+                        </li>
+                    </ul>
+                    <a class="btn dark-switch"><i class="bi bi-moon-stars-fill"></i> Night</a>
+                    <div class="dropdown">
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://avatars.githubusercontent.com/u/7916832?s=400&u=c6de6c3b2085852ba4cb7e5787b89eaa18b8d362&v=4" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
+                            <li><a class="dropdown-item" href="#">Perfil</a></li>
+                            <li><a class="dropdown-item" href="#">Candidaturas</a></li>
+                            <li><a class="dropdown-item" href="#">Configurações</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sair</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </head>
+    <section id="search-jobs" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4  mx-auto">
+                    <form>
+                        <h1 class="h3 mb-3 fw-normal">Entrar</h1>
+                    
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="joao@example.com">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
+                            <label for="floatingPassword">Senha</label>
+                        </div>
+                    
+                        <div class="form-check form-switch my-3">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Permanecer Conectado</label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+                    </form>
+                    <div class="row">
+                        <a class="btn btn-link mt-2" href="cadastro.html">Cadastre-se</a>
+                        <a class="btn btn-link mt-2 mx-auto" href="#">Esqueci minha senha</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer mt-auto py-2 text-center">
+        <div class="container">
+            <small class="copy">Todos os direitos reservados TransJobs &#169; 2021-2022 | Desenvolvido por Abner Narciso</small>
+        </div>
+    </footer>
+    
+
+
+
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
